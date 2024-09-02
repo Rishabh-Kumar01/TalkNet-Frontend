@@ -8,5 +8,5 @@ Run the following commands to start the server
 npm install
 npm run dev
 
-# Make sure to keep the freeapi server running
+# Make sure to keep the TalkNet server running
 ```

@@ -25,7 +25,9 @@ apiClient.interceptors.request.use(
 
 // API functions for different actions
 const loginUser = (data: { username: string; password: string }) => {
-  return apiClient.post("/auth/login", data);
+   const resposne = apiClient.post("/users/login", data);
+   console.log(resposne, "response");
+   return resposne;
 };
 
 const registerUser = (data: {
